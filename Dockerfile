@@ -1,7 +1,7 @@
 FROM centos:7
 MAINTAINER Pravin Sidwadkar
-RUN yum install httpd -y
-Zip \
+RUN yum install httpd -y \
+zip \
 unzip
 Add https://www.free-css.com/assets/files/free-css-templates/download/page247/kindle.zip /var/www/html
 WORKDIR /var/www/html
